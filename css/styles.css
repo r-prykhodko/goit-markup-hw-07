@@ -89,6 +89,54 @@ body {
     
 }
 
+/* Mobile  */
+@media screen and (max-width: 767px) {
+    .effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile.jpg);
+    } 
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), 
+screen and (min-resolution: 192dpi) and (max-width: 767px), 
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .effective-solutions {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile@2x.jpg);
+    }
+}
+
+/* Tablet  768+*/
+
+@media screen and (min-width: 768px) {
+    .effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet.jpg);
+    } 
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
+screen and (min-resolution: 192dpi) and (min-width: 768px), 
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .effective-solutions {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet@2x.jpg);
+    }
+}
+
+/* Dekstop */
+
+@media screen and (min-width: 1158px) {
+    .effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    } 
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px), 
+screen and (min-resolution: 192dpi) and (min-width: 1158px), 
+screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .effective-solutions {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+    }
+}
+
+
 .effective-solutions-text {
     color: var(--clr-white);
     font-size: 56px;
