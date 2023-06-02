@@ -70,7 +70,7 @@ body {
 
 @media screen and (min-width: 428px) {
     .container {
-        width: 396px;
+        width: 428px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -217,8 +217,72 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 
 /* ========== ABOUT-US ========== */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    
+        about-us {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        
+        }
 
+        .h-three-about-us {
+            
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--clr-navy-blue);
+            margin-bottom: 8px;
+        }
 
+        .about-us-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 72px;
+        }
+
+        about-us-list-li {
+            width: calc((100% - 72px) / 4);
+            
+        }
+    } 
+
+.about-us {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.icon-about-us {
+    display: none;
+    
+}
+.about-us-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--clr-slate);
+}
+
+.h-three-about-us {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--clr-navy-blue);
+    margin-bottom: 8px;
+    margin-top: 72px;
+}
+
+about-us-list-li {
+    width: calc((100% - 72px) / 4);
+    
+}
+/* 
 .about-us {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -262,7 +326,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     margin-bottom: 8px;
 }
 
-
+ */
 
 
 /* ========== ABOUT-US*END ========== */
@@ -468,7 +532,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 .page-header {
     padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    
 }
 
 .page-header-container {
@@ -527,6 +591,100 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+
+@media screen and (min-width: 768px) {
+    .mobile-menu-open-btn {
+        display: none;
+        
+    }
+
+    .menu {
+        display: flex;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        gap: 40px;
+        
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        column-gap: 120px;
+    }
+
+    .link-style-nav {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    color: var(--clr-navy-blue);
+    padding: 24px 0;
+    display: block;
+    }
+
+    .address-style {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: var(--clr-slate);
+        letter-spacing: 0.02em;
+    }
+
+    .current::after {
+        width: 100%;
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: var(--clr-ocean); 
+        border-radius: 2px;  
+    }
+    
+    .current {
+        color: var(--clr-ocean);
+    }
+
+    .contacts {
+    
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: auto;
+        
+    }
+
+    .logo {
+        margin-right: 0;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--clr-iris);
+    
+    }
+
+    @media screen and (min-width: 1158px) {
+        .contacts {
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-left: auto;   
+        }
+    }
+}
 
 .site-nav-mobile {
     margin-bottom: 40px;
