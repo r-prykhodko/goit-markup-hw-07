@@ -220,13 +220,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     
         .about-us {
-            padding-top: 16px;
-            padding-bottom: 16px;
+            
         
         }
 
         .h-three-about-us {
-            
+            text-align: left;
             font-weight: 500;
             font-size: 36px;
             line-height: 1.2;
@@ -243,7 +242,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         }
 
         .about-us-list-li {
-            wflex-basis: calc((100% - 24px) / 2);
+            flex-basis: calc((100% - 24px) / 2);
         }
     } 
 
