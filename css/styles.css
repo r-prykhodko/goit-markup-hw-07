@@ -242,7 +242,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
             row-gap: 72px;
         }
 
-        about-us-list-li {
+        .about-us-list-li {
             width: calc((100% - 72px) / 4);
             
         }
