@@ -888,7 +888,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .page-header {
-    padding-top: 25.5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -1030,6 +1031,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     
     }
 
+    .page-header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
     
 }
 
@@ -1051,6 +1057,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     .address-style:hover,
     .address-style:focus {
     color: var(--clr-ocean);
+}
+
+.page-header {
+    
+    padding-bottom: 0;
 }
 }
 
