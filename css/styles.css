@@ -1135,6 +1135,11 @@ li.about-us-list-li:last-child {
     
     padding-bottom: 0;
 }
+
+.contact-item-post {
+    
+    margin-bottom: 0px;
+  }
 }
 
 .site-nav-mobile {
@@ -1197,6 +1202,8 @@ li.contacts-mobile:last-child {
 
     
   }
+
+  
 
   .mob-item {
     margin-bottom: 40px;
